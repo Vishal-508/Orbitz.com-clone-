@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+		#navbar{
+			display: flex;
+			border: 1px solid black;
+			
+		}#navbar>h3>a{color: rgb(222, 31, 219);
+			cursor: pointer;}
+		#navbar>h3{margin-left: 50px;}
+		#container{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			grid-template-rows: auto;
+			gap: 3px;
+			border: 1px solid black;
+			margin: auto;
+			width: 80%;
+		}
+		#outContainer{
+			width: 100%;
+		}
+		img{
+			width: 100%;
+			height: 420px;
+
+		}
+		/* #container>div{
+			width: 30%;
+		} */
+	</style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"> 
+		<h3><a href="index.html">Search Page</a></h3>
+		<h3><a href="listPage.html">Hotel List Page</a></h3>
+		<h3><a href="hotelPage.html">HotelPage</a></h3>
+	</div>
+	<div id="outContainer">
+		<div id="container">
+
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	
+	let hotelImages  = JSON.parse(localStorage.getItem("hotelImages"))||[] ; 
+	let container = document.getElementById("container") ; 
+	function showData(){
+		container.innerHTML = null ; 
+		hotelImages.forEach(function(el,i){
+			// let div = document.createElement("div") ; 
+			let img = document.createElement("img") ; 
+			img.src = el.mainUrl ; 
+			container.append(img) ; 
+			// container.append(div)
+		})
+	}
+	showData() ; 
+
+</script>

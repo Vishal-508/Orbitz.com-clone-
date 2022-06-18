@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OrbitzPayment.css">
+    <title>Orbitz: Payment</title>
+</head>
+<body>
+    <div id="sk_navbar">
+        <div id="sk_icon">
+            <img src="https://th.bing.com/th/id/OIP.5LHWsIa3EtGvaXxVz7muIgHaD3?w=302&h=180&c=7&r=0&o=5&pid=1.7" alt="Orbitz">
+            <div id="sk_sign">Sign Up for Rewards</div>
+            <div id="sk_price">$0.00</div>
+        </div>
+        <div id="sk_name">Sign In</div>
+    </div>
+    
+
+    <div id="sk_body">
+        <h2>Secure reservation. It only takes you 2 minutes!</h2>
+        <div id="sk_covid">
+            <span class="sk_close">&times;</span>
+            <img src="https://cdn-icons-png.flaticon.com/128/3914/3914740.png" alt="danger">
+            <p>Check COVID-19 restrictions <a href="#">here</a> </p>
+        </div>
+        <div id="sk_cancel">
+            <img src="https://cdn-icons-png.flaticon.com/128/3917/3917579.png" alt="tick">
+            <div id="sk_content">
+                <p id="sk_1">Free cancellation before sea. Jun 28, 5:00 p.m. (local property time)</p>
+                <p id="sk_2">If your plans change, you can modify or cancel this stay and get a full refund. Because flexibility is important.</p>
+            </div>
+        </div>
+        
+        <div id="sk_box">
+            <div id="sk_left">
+                <div id="sk_lock">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3917/3917642.png" alt="lock">
+                    <p>Sign in to earn $3.10 in Orbucks</p>
+                </div>
+                <div id="sk_room">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/3917/3917705.png" alt="person">
+                    </div>
+                    <div>
+                        <p>Room 1: 2 Adults</p>
+                    <form id="sk_details" onsubmit="userFun(event)">
+                        <div id="sk_info">
+                            <div class="sk_in">
+                                <label>First Name <span class="sk_required">*</span> </label> <br>
+                            <input class="sk01" type="text" required placeholder="(e.g. John)">
+                            </div>
+                            <div class="sk_in">
+                                <label>Last Name <span class="sk_required">*</span> </label> <br>
+                            <input class="sk02" type="text" required placeholder="(e.g. Smith)">
+                            </div>
+                        </div>
+                        <div class="sk_in1">
+                            <label>Mobile phone number <span class="sk_required">*</span> </label>     <br>
+                        <select>
+                            <option>IND +91</option>
+                            <option>USA +1</option>
+                            <option>ITA +39</option>
+                            <option>PAK +92</option>
+                            <option>QAT +974</option>
+                        </select>
+                        <input class="sk03" type="text" required placeholder="So the properly can reach you">
+                        </div>
+                        <input type="checkbox">  I want to receive text alerts about this trip. Message and data transmission rates apply.
+                    </div>
+                </div>
+                <div id="sk_protect">
+                    <div id="sk_recom">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3917/3917639.png" alt="icon">
+                        <h2>Protect your hotel</h2>
+                        <span>Recommended</span>
+                    </div>
+                    <div id="sk_important">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3917/3917692.png" alt="icon">
+                        <p> Important : Cancellations due to government travel alerts, fear of travel, or changes of mind do not enter the coverage. Travel insurance may include coverage for illness diagnosed with COVID-19. COVID-19 is considered a foreseeable event, so other selected coverages do not apply.</p>
+                    </div>
+                    <div id="sk_note">
+                        <p>Note : If you are a resident of WASHINGTON state, click here to see products you qualify for purchase.</p>
+                        <h3>4 Situations Where You'd Need Travel Protection</h3>
+                        <ol>
+                            <li>Your trip was delayed for some reason within the coverage and you missed a night's stay</li>
+                            <li>You get sick and don't use all your hotel nights</li>
+                            <li>You need to extend your trip because a companion got sick</li>
+                            <li>You need up to $10,000 to pay for covered medical expenses while on your trip</li>
+                        </ol>
+                        <p>Choose Yes or No to continue with the reservation </p>
+                        <div class="sk_s1">
+                            <input class="sk04" type="checkbox" > Yes, I want the Hotel Reservation Protection Plus plan for my trip worth USD8.00 per person.
+                        </div> 
+                        <div class="sk_s2">
+                            <input class="sk05" type="checkbox" > No, I prefer not to protect my trip worth USD122.10.
+                        </div>
+                        
+                        <p>"Things happened out of my reach and I found myself needing to cancel my trip. Travel protection helped me lose less money when I had to cancel the trip. " - Mr. Rodman</p>
+                    </div>
+                </div>
+                <div id="sk_pay">
+                    <div id="sk_top">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3916/3916681.png" alt="card icon">
+                        <p>$0.00 due now for your hotel. Your card will only be charged for Hotel Booking Protection Plus today.</p>
+                    </div>
+                    <div id="sk_card">
+                        <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg">
+                        <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg">
+                        <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg"> 
+                        <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_china_union_pay.svg">
+                        <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg"> <br>
+                        <label>Name on Card <span class="sk_required">*</span></label><br>
+                        <input class="sk06" type="text" required><br>
+                        <label>Debit/Credit card number <span class="sk_required">*</span></label><br>
+                        <input class="sk07" type="Number" required><br>
+                        <label>Expiration date <span class="sk_required">*</span></label> <br>
+                        <select required>
+                            <option>Month</option>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                        </select>
+                        <select required>
+                            <option>Year</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                        </select>
+                        <br>
+                        <label> Security code<span class="sk_required">*</span></label> <br>
+                        <input class="sk08" type="text" required>
+                    </div>
+                    
+                </div>
+                <div id="sk_confirm">
+                    <h2>Manage your booking</h2>
+                    <hr>
+                    <h4>Confirmation email</h4>
+                    <p>Please enter the email address where you would like to receive your confirmation.</p>
+                    <label> Email address<span class="sk_required">*</span></label> <br>
+                    <input class="sk09" type="text" required>
+                </div>
+                <div id="sk_last">
+                    <h3>Important information about the reservation</h3>
+                    <hr>
+                    <ul>
+                        <li>Cancellations or changes made after 5:00 p.m. (local property time) on Jun 28, 2022 or persons who do not show up at check-in, are subject to a property charge equivalent to 100% of the total amount paid for the reservation.</li>
+                        <li>This property offers a shuttle service from the airport (surcharges may apply). To arrange pick-up, guests must contact the property 24 hours prior to arrival using the contact details on the booking confirmation. The reception staff will be waiting for guests upon arrival.</li>
+                    </ul>
+                    <span>By clicking on the button below, I agree that I reviewed the Privacy Notice and the Government Travel Alerts I also accept that I reviewed and that I accept the Rules and restrictions and the Terms of Use </span>
+                    <p>Was there a change of plans? No problem. You can cancel free of charge before the sea.</p> 
+                    <input type="submit" value="Complete Booking">
+                </form>
+                    <div id="sk_to">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3917/3917650.png" alt="">
+                        <p>We use secure transmissions and encrypted storage to protect your personal information.</p>
+                    </div>
+                    <p>This payment will be processed in the United States. It may not apply when the supplier (airline/hotel/train, etc.) processes the payment.</p>
+                </div>
+            </div>
+
+
+            <div id="sk_right">
+                <h2>Price details</h2>
+                <hr>
+                <div id="sk_cost">
+                    <p>1 room x 1 night</p>
+                    <p>$115.60</p>
+                </div>
+                <div id="sk_tax">
+                    <p>Taxes</p>
+                    <p>$20.81</p>
+                </div>
+                <hr>
+                <div id="sk_total">
+                    <h3>Total</h3>
+                    <h3>$136.41</h3>
+                </div>
+                <h4>Deposits collected by property</h4>
+                <div id="sk_depo">
+                    <p>Your first payment</p>
+                    <p>$136.41</p>
+                </div>
+                <p>Today</p>
+                <hr>
+                <span>Not included in your total </span>
+                <p>Mandatory charge: Collected at property.</p>
+                <h6>Rates quoted in US dollars are based on current exchange rates, which may vary at the time of travel.</h6>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="./OrbitzPayment.js"></script>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./hotelPage.css">
+    <link rel="stylesheet" href="./rooms.css">
+</head>
+<body style="background-color: rgb(241, 244, 246);">
+    
+    
+        <div id="navbar"> 
+            <h3><a href="index.html">Search Page</a></h3>
+            <h3><a href="listPage.html">Hotel List Page</a></h3>
+            <h3><a href="hotelPage.html">HotelPage</a></h3>
+        </div>
+       
+    <div style="margin: auto;width: 80%;" id="mainDiv">
+
+        <div id="gridImages">
+            
+        </div>
+    </div>
+    
+        <div style="background-color: #FFFFFF;" id="secondNavbar">
+            <div id="a">
+                <ul id="navbarList">
+                    <li><a class="active" href="#overview">Overview</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#amentities">Amentities</a></li>
+                    <li><a href="#policies">Policies</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            
+            <div id="reserveBtn"><button><a style="text-decoration: none;color:white" href="#rooms">Reserve Room</a></button></div>
+        </div>
+        </div>
+        <section style="margin-top: 0px;" id="overview" >
+            <div id="h1&map" style="line-height: -10px;display: flex;justify-content: center; width: 100%;">
+                <div id="h1&content" style="width: 65%;margin-left: 15px;">
+                    <div  style=" text-align: left; line-height: 1px;font-size: 22px;"><h2 style="line-height: 10px;" id="hotelName"></h2>
+                        <img id="starRating" style="height: 80px;width: 80px;margin-left: 15px;" src="" alt=" Stars">
+                    </div>    
+                    <div style=" text-align: center;width: 100%;line-height: 9px;">
+                        <p style="text-align: left;font-size: 16px;margin-left: 15px;color:#616161" id="starRatingTitle"></p>
+                        <div>
+                            <h5 style="font-size: 30px;" class="contentHeading">Popular Amentities</h5>
+                            <div class="contents">
+                                   <ul id="amentitiesList"></ul>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 style="font-size: 30px;" class="contentHeading">Cleaning and safety practices</h5>
+                            <div class="contents">
+                                <ul  id="cleaningList"></ul>   
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+                <div id="map" style="margin-right: 5px;width: 35%; ">
+                    <div id="mapDiv">
+                        <iframe id="map1" src="" frameborder="0"></iframe>
+                        <p id="viewInMap"><a href="#location">View in Map</a></p>
+                    </div>
+                    <div id="hotelAddress">
+                        <p id="address"></p>
+                    </div>
+                    <div id="explore" style="line-height: 5px;margin-left: 15px;">
+                        <h5 style="font-size:26px">Explore the Area</h5>
+                        <div id="nearby1">
+                            <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                            <p id="n1"></p>
+                        </div>
+                        <div id="nearby2">
+                            <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                            <p id="n2"></p>
+                        </div>
+                        <div id="nearby3">
+                            <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                            <p id="n3"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2 style="width: 80%;margin:auto; font-size:34px">Choose your Room</h2>
+        <section id="rooms">
+            <div id="allRooms">
+                
+            </div>
+            
+        </section>
+        <section id="location">
+            <div id="nearbyPlaces">
+                <h2 style="margin-left: 15px;" id="What's Nearby"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>What's Nearby</h2>
+                <div style="line-height: 40px;" id="listNearby"></div>
+                
+            </div>
+            <div id="mapLocation">
+                <iframe id="map2" src="" frameborder="0"></iframe>
+                <div id="explore2" style="line-height: 5px;margin-left: 15px;">
+                    <h5 style="font-size:26px">Getting Around</h5>
+                    <div id="nearby11">
+                        <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                        <p id="n11"></p>
+                    </div>
+                    <div id="nearby22">
+                        <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                        <p id="n22"></p>
+                    </div>
+                    <div id="nearby33">
+                        <object data="./Photos/iconmonstr-location-1.svg" type=""></object>
+                        <p id="n33"></p>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="amentities">
+            <div id="A1">
+                <h1>Property Amenities</h1>
+            </div>
+            <div id="amentitiesBox1">
+                <!-- <h3 id="amentitiesHeading"></h3> -->
+                <!-- <ul id="amentitiesList"></ul> -->
+            </div>
+            <div id="amentitiesBox2">
+
+            </div>
+        </section>
+
+        <section id="policies">
+            <div id="policeHeading">
+                <h1>Policies</h1>
+                
+                
+            </div>
+            <div id="policyInstructions">
+                <h3 id="policyHeading">Special check-in Instructions</h3>
+                <div id="allInstructions"></div>
+                <h3>Pets</h3>
+                <div><p>No Pets or Service animal allowed</p></div>
+                <h3>Access Methods</h3>
+                <div><p>Staffed front Desk</p></div>
+                <h3>Children and extra beds</h3>
+                <div>
+                    <p>Children are welcome</p>
+                    <p>Kids stay free! Up to 2 children stay free when using existing bedding</p>
+                    <p>Rollaway/extra beds are available for INR 1500.0 per night</p>
+                    <p>Rollaway/extra beds are available for INR 1500.0 per night</p>
+                </div>
+                <h3>Property payment types</h3>
+                <div style="display: flex;margin-left:15px ;">
+                    <object data="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg" type=""></object>
+                    <object data="https://a.travel-assets.com/dms-svg/payments/cards-cc_diners_club.svg" type=""></object>
+                    <object data="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg" type=""></object>
+                    <object data="https://a.travel-assets.com/dms-svg/payments/cards-cc_jcb.svg" type=""></object>
+                    <object data="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg" type=""></object>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 20px;" id="reviews">
+            <div id="ratingBox1">
+                <div id="ratingBox11">
+                    <div id="rev1"><h1 id="overallReview"></h1></div>
+                    <div id="rev2" style="margin-top: 15px;font-size: 16px;line-height:5px"><h3 id="reviewTitle"></h3><p id="reviewsTotal"></p><p>Verified Reviews</p></div>
+                </div>
+                <div style="text-align:center" id="ratingBox12"></div>
+            </div>
+            <div id="ratingBox2">
+                <div id="guestComments">
+                   
+
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            let section = document.querySelectorAll("section") ; 
+            let secondNavbar = document.querySelectorAll("#secondNavbar #navbarList li a") ; 
+
+            window.onscroll = () =>{
+                section.forEach(sec =>{
+                    let top = window.scrollY ; 
+                    let offset = sec.offsetTop ; 
+                    let height = sec.offsetHeight- 150 ; 
+                    let id = sec.getAttribute("id") ; 
+
+                    if(top>=offset&&top<offset+height){
+                        secondNavbar.forEach(links =>{
+                            links.classList.remove("active") ; 
+                            document.querySelector("#secondNavbar #navbarList li a[href*=" + id + "]").classList.add("active")
+                        })
+                    }
+                })
+            }
+        </script>
+    
+
+   
+
+
+
+
+   
+</body>
+</html>
+<script src="./scripts/hotelPage.js"></script>

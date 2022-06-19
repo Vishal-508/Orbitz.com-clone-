@@ -1,0 +1,20 @@
+#thirty{
+    width: 30%;
+    border: 2px solid red;
+    
+}
+#seventy{
+    width: 70%;
+    border: 2px solid red;
+}
+#thirtyFive{
+    width: 38%;
+    border: 2px solid black;
+}
+#sixtyFive{
+    width: 62%;
+    border: 2px solid black;
+}
+.hotelImages{
+    width: 100%;
+}

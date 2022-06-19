@@ -1,0 +1,97 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#sks_navbar {
+    border-bottom: 1px solid rgba(156, 156, 156, 0.87);
+    display: flex;
+    /* margin: 10px; */
+}
+#sks_navbar img {
+    margin: auto;
+    /* border: 1px solid; */
+    height: 1.88rem;
+    padding: 10px;
+}
+#sks_arrow {
+    /* border: 1px solid; */
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    /* color: #007E8F; */
+}
+a {
+    text-decoration: none;
+    color: #007E8F;
+}
+#sks_box {
+    /* border: 1px solid; */
+    width: 21%;
+    margin: auto;
+}
+input {
+    margin-bottom: 25px;
+}
+input[type = checkbox] {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+input[type = text], input[type=password] {
+    padding: 12px;
+    width: 93%;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 2px;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-family: inherit;
+}
+input[type=submit] {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #C83269;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 2px;
+    border: 0px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: inherit;
+}
+#sks_last {
+    /* border: 1px solid; */
+    width: 21%;
+    margin: auto;
+}
+#sks_last p {
+    margin: auto;
+    font-size: 14px;
+    color: #616161;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#sks_photo img {
+    height: 1.125rem;
+    /* margin: auto; */
+}
+#sks_photo {
+    /* border: 1px solid; */
+    display: flex;
+    margin: auto;
+    width: 10%;
+    gap: 20px;
+}
+#tc1, #sks_form label {
+    font-size: 14px;
+    color: #616161;
+}
+.err{
+    color: red;
+    margin-top: -15px;
+    font-size: 12px;
+}

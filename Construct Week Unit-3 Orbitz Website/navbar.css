@@ -1,0 +1,70 @@
+/* **********NAVBAR STYLE STARTS HERE************ */
+#vs-navbar{
+    background-color: #00253c;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+#vs-nav-main-con{
+    display: flex;
+    
+    align-items: center;
+    width: 1248px;
+    margin: auto;
+    /* padding: 0 8px 0 24px; */
+}
+#vs-nav-sub-con-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1248px;
+    margin: auto;
+    padding: 0 8px 0 24px;
+}
+#vs-nav-sub-con-1>div{
+display: flex;
+align-items: center;
+}
+#vs-nav-sub-con-1>div>a{
+    padding: 8px 24px 8px 0;
+}
+#vs-nav-more>div>button{
+display: flex;
+align-items: center;
+background-color:#00253c;
+color: white;
+border: none;
+padding: 4px 16px;
+font-size: 14px;
+}
+#vs-nav-more>div>button:hover{
+    color: #007E8F;
+    cursor: pointer;
+}
+#vs-nav-more>div>button>div{
+    margin-right: 12px;
+    font-weight: 500;
+}
+#vs-nav-more>div>button>img{
+    filter: brightness(0) invert(1);
+    width: 8px;
+    
+}
+#vs-nav-sub-con-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#vs-nav-sub-con-2>div{
+    padding: 4px 16px;
+}
+#vs-nav-sub-con-2>div>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#vs-nav-sub-con-2>div:hover a{
+    color: #007E8F;
+    cursor: pointer;
+}

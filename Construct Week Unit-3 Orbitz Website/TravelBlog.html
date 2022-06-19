@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TravelBlog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="layout1">
+        <div id="dashboard">
+            <div id="logo1">
+                <div id="one1">
+                    <img id="logo" src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2" alt="logo">
+                    <a id="Rewards" href="http://">Join Rewards</a>
+                </div>
+                <div id="two2">
+                    <select name="Account" id="Account">
+                        <option value="acount"><a href="">Account</a></option>
+                    </select>
+                    <select name="MyList" id="MyList">
+                        <option value="MyList"><a href="">My Lists</a></option>
+                    </select>
+                <a id="MyTrips"href="http://">My Trips</a>
+                <select name="Support" id="Support">
+                    <option id="Support" value="support"><a href="">Support</a></option>
+                </select>
+                <a href="http://"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+                <a href="http://"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                <a href="http://"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                <a href="http://"><i class="fa fa-pinterest" style="font-size:24px"></i></a>
+                <a href="http://"><i id="wifi" style="font-size:24px" class="fa">&#xf1eb;</i></a>
+            </div>
+            </div>
+            <div id="options">
+                <div id="option1">
+                    <a  href="http://" class="option">Home</a><a  href="http://" class="option">Hotels</a><a  href="http://" class="option">Flights</a><a  href="http://" class="option">Packages</a><a  href="http://" class="option">Cars</a><a  href="http://" class="option">Cruises</a><a  href="http://" class="option">Deals</a><a  href="http://" class="option">Activities</a><a  href="http://" class="option">Mobile</a><a  href="http://" class="option">Rewards</a><a  href="./TravelBlog.html" class="option">Travel blog</a>
+                </div>
+                <div id="option2">
+                    <input type="text" name="search" id="Search" placeholder="Search for a destination"><button type="submit">SEARCH</button>
+                </div>
+            </div>
+        </div>
+        <div id="newsboard">
+            <div id="box1">
+                <div id="one_1">
+                    <div id="b1">                    
+                        <img id="n1" src="https://www.gannett-cdn.com/-mm-/ea52bcfb29090d759296e5630a82a776c9e821ef/c=0-31-580-357/local/-/media/2018/08/15/USATODAY/usatsports/airplane-gettyimages-490305380_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp" alt="">
+                        <p> Why some airline refunds take so long</p>
+                    </div>
+                </div>
+                <div id="two_2">
+                <div id="b2">
+                    <img id="n2" src="https://www.wdwinfo.com/wp-content/uploads/2016/02/tree-of-life.jpg" alt="">
+                    <p>Which Disney World theme park should you visit? (QUIZ)</p>
+                </div>
+                <div id="b3">
+                    <img id="n3" src="https://media.istockphoto.com/photos/couple-enjoying-las-vegas-nightlife-picture-id1141453762?k=20&m=1141453762&s=612x612&w=0&h=nCG015Cy7aRGqqWaLfpRBgaTRChrVOWxXVxXwXJTozg=" alt="">
+                    <p>9 ways to do Vegas like a high roller without spending like one</p>
+                </div>
+                <div id="b4">
+                    <img id="n4" alt="" src="data:image/jpeg;base64,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">
+                    <p>6 bucket list destinations to check out right here in the US</p>
+                </div>
+                <div id="b5">
+                    <img id="n5" src="https://aff.bstatic.com/images/hotel/840x460/263/263692902.jpg" alt="">
+                    <p>Get more for your money at these amenity-packed Key West hotels</p>
+                </div>
+            </div>
+            </div>
+
+            <div id="box1">
+
+                <div id="one_1">
+                    <div id="b1">
+                    <img id="n6" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/12/02155446/lee-canyon-mountain-shot_960.jpg" alt="">
+                    <p>6 places you didn’t know you could ski</p>
+                </div>
+                </div>
+
+                <div id="two_2">
+                    <div id="b2">
+                        <img id="n7" alt="" src="https://cdn.pixabay.com/photo/2017/02/07/14/21/miami-2046046_960_720.jpg">
+                        <p>Quiz: Which Florida beach are you?</p>
+                    </div>
+                    <div id="b3">
+                        <img id="n8" src="https://theairport.org/images/lax_airport_advertising_image.jpg" alt="">
+                        <p>5 U.S. airports where change is in the air</p>
+                    </div>
+                    <div id="b4">
+                        <img id="n9" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/12/02154026/scuba-diver.jpg" alt="">
+                        <p>8 great New Year’s resolutions for eager travelers</p>
+                    </div>
+                    <div id="b5">
+                        <img id="n10" src="https://ewscripps.brightspotcdn.com/dims4/default/64e1039/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=http%3A%2F%2Fmedia2.wptv.com%2Fphoto%2F2015%2F06%2F30%2FWPTV-Walt-Disney-World-statue-of-Walt-and-Mickey_1435678505675_20553210_ver1.0_640_480.jpg" alt="">
+                        <p>12 pro-tips for experiencing Walt Disney World alone</p>
+                    </div>
+                </div>
+
+            </div>
+
+     <div id="box1">
+
+        <div id="one_1">
+            <div id="b1">
+                <img id="n11" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/10/16125252/biking-in-montreal.jpg" alt="">
+                <p>48 perfect hours in Montreal</p>
+            </div>
+        </div>
+
+        <div id="two_2">
+            <div id="b2">
+                <img id="n12" src="https://www.travelocity.com/inspire/wp-content/uploads/2020/03/ProperSM2-1024x687.jpg" alt="">
+                <p>Best Los Angeles hotel rooftops for every personality type</p>
+            </div>
+            <div id="b3">
+                <img id="n13" src="https://media.istockphoto.com/photos/high-five-picture-id846846730?k=20&m=846846730&s=612x612&w=0&h=3JvASfXwaUHhUUNPOFlJtApsibbscgMVp4xcGXfKBvM=" alt="">
+                <p>8 jaw-dropping cliff diving destinations</p>
+            </div>
+            <div id="b4">
+                <img id="n14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWVFI1C7hujonyvRIkN_xac5URbPFmL3nMTg&usqp=CAU" alt="">
+                <p>Which Fiji island is your perfect tropical escape? (QUIZ)</p>
+            </div>
+            <div id="b5">
+                <img id="n15" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/07/01112242/WonderWorks-Orlando-Building-3.jpg" alt="">
+                <p>Behold the world’s most mind-bending architectural optical illusions!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="box1">
+
+        <div id="one_1">
+            <div id="b1">
+                <img id="n16" src="https://pbs.twimg.com/media/EyjciBOWEAM0Oje?format=jpg&name=900x900" alt="">
+                <p>The hottest LGBTQ events happening in December</p>
+            </div>
+        </div>
+
+        <div id="two_2">
+            <div id="b2">
+                <img id="n17" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/10/16111537/Palm-Jumeirah.jpg" alt="">
+                <p>16 things you must do in Dubai</p>
+            </div>
+            <div id="b3">
+                <img id="n18" src="https://i.cbc.ca/1.2961842.1424280966!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/lake-superior.jpg" alt="">
+                <p>Apostle Islands: Lake Superior’s superior getaway</p>
+            </div>
+            <div id="b4">
+                <img id="n19" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2016/12/16105621/Mickey%E2%80%99s-Very-Merry-Christmas-Party-3-copy.jpg" alt="">
+                <p>25 festive events every holiday traveler will love</p>
+            </div>
+            <div id="b5">
+                <img id="n20" src="https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2021/11/19152324/The-Savoy-London.png" alt="">
+                <p>Vintage hotels that bring the Roaring Twenties to the 2020s</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="line"></div>
+    <div id="load"><p>Load more stories... →<span id="plus">+</span></p></div>
+    </div>
+    <div id="app_box"><div id="new1"><p>Get exclusive deals on your mobile device</p><a href="http://">Download the free Orbitz App</a></div><div id="new2"><img id="apple" src="https://images.trvl-media.com/media/content/expus/graphics/promos/media_lounge/download_on_the_app_store_badge_en_US_135x40.png" alt=""><img id="android" src="https://images.trvl-media.com/media/content/expus/graphics/promos/mobile-download/android_button_en_US.png" alt=""></div></div>
+</div>
+<!-- <div id="footpage">
+    <div id="f_one"></div>
+    <div id="f_two"></div>
+    <div id="f_three"></div> -->
+</div>
+<!-- footer -->
+<div id="vs-footer">
+    <div id="vs-footer-con">
+      <ul id="vs-footer-ul">
+        <li>
+          <img
+            src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
+            alt=""
+          />
+        </li>
+        <li>
+          <h2>Company</h2>
+          <ul>
+            <li>
+              <div><a href="">About</a></div>
+            </li>
+            <li>
+              <div><a href="">Jobs</a></div>
+            </li>
+            <li>
+              <div><a href="">List your property</a></div>
+            </li>
+            <li>
+              <div><a href="">Partnerships</a></div>
+            </li>
+            <li>
+              <div><a href="">Newsroom</a></div>
+            </li>
+            <li>
+              <div><a href="">Investor Relations</a></div>
+            </li>
+            <li>
+              <div><a href="">Site Map</a></div>
+            </li>
+            <li>
+              <div><a href="">Orbitz Rewards</a></div>
+            </li>
+            <li>
+              <div><a href="">Advertising</a></div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Explore</h2>
+          <ul>
+            <li>
+              <div><a href="">Hotels in United States</a></div>
+            </li>
+            <li>
+              <div><a href="">Vacation REntals in United States</a></div>
+            </li>
+            <li>
+              <div><a href="">Car Rentals in United States</a></div>
+            </li>
+            <li>
+              <div><a href="">Domestic Flights</a></div>
+            </li>
+            <li>
+              <div><a href="">Vacation Packages in United States</a></div>
+            </li>
+            <li>
+              <div><a href="">Orbitz Reviews</a></div>
+            </li>
+            <li>
+              <div><a href="">Orbitz Coupons</a></div>
+            </li>
+            <li>
+              <div><a href="">LGBTQ Travel</a></div>
+            </li>
+            <li>
+              <div><a href="">Unique Accommodations</a></div>
+            </li>
+            <li>
+              <div><a href="">Travel Blog</a></div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Policies</h2>
+          <ul>
+            <li>
+              <div><a href="">Privacy Policy</a></div>
+            </li>
+            <li>
+              <div><a href="">Terms of Use</a></div>
+            </li>
+            <li>
+              <div><a href="">Vrbo terms and conditions</a></div>
+            </li>
+            <li>
+              <div><a href="">Orbitz Rewards Terms</a></div>
+            </li>
+            <li>
+              <div><a href="">Do not sell my personal information</a></div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Help</h2>
+          <ul>
+            <li>
+              <div><a href="">Support</a></div>
+            </li>
+            <li>
+              <div>
+                <a href="">Cancel your hotel or vacation rental booking</a>
+              </div>
+            </li>
+            <li>
+              <div><a href="">Cancel your flight</a></div>
+            </li>
+            <li>
+              <div>
+                <a href="">Refund timelines, policies & processes</a>
+              </div>
+            </li>
+            <li>
+              <div><a href="">Use an Orbitz Coupon</a></div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <ul id="vs-bottom-ul">
+        <li>
+          © 2022 Orbitz, LLC, an Expedia Group Company. All rights reserved.
+        </li>
+        <li>
+          Orbitz, Orbitz.com, and the Orbitz logo are trademarks or
+          registered trademarks of Orbitz, LLC. CST# 2083930-50.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div
+</body>
+</html>

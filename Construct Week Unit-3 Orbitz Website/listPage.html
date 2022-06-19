@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./navbar.css">
+	<link rel="stylesheet" href="./footer.css">
+    
+	<link rel="stylesheet" href="./listPage.css">
+    <title>Document</title>
+</head>
+<body style="width: 100%;background-color: rgb(241, 244, 246);">
+	<div style="background-color: #00253C;" id="navbar"> 
+		
+	</div>
+    <h1>Orbitz ListPage</h1>
+	<div id="container" style=" display: flex;width: 75%;margin:auto">
+		<div  id="thirty">
+			<div>
+				<iframe id="map" src="" frameborder="0"></iframe>
+			</div>
+			<div></div>
+		</div>
+		<div  id="seventy" >
+			<div id="hotelDiv" style="width: 100%; "></div>
+		
+		</div>
+	</div>
+	<div id="footerBottom"></div>
+</body>
+</html>
+<script src="./scripts/listPage.js"></script>
+<script type="module">
+	import footer from "./footer.js" ; 
+	document.getElementById("footerBottom").innerHTML = footer() ; 
+</script>
+<script type="module">
+    import navbar from "./navbar.js" ; 
+    document.getElementById("navbar").innerHTML = navbar() ; 
+    
+</script>

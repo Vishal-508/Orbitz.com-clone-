@@ -1,4 +1,3 @@
-# second-collab-project
 testing repository
 # second-collab-project
 THIS IS A CLONE OF "ORBITZ.COM" WEBSIE FOR OUR PROJECT PURPOSE

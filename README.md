@@ -5,5 +5,5 @@ VISHAL SHARMA
 NIPENDRA SONI
 SUSHANT KUMAR
 RAMKEZH PREMARANJAN 
-NIDHI AAROHI
-ANAND KUMAR
+NIDHI AAROHI   ----------->   Worked but not able to attend and submit her code due to internet banned in her area.
+ANAND KUMAR   ----------->    Not interested in doing project.

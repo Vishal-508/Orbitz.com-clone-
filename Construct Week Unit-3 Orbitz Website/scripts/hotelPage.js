@@ -6,7 +6,7 @@ let hotelID = hotelDetails.id ;
 const option = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '2988766804msh3709a2157f0e0d3p1f1e2djsn983587b3c261',
+		'X-RapidAPI-Key': '715564a4f0msh58a53e432b88722p16f800jsn040c97c70ac0',
 		'X-RapidAPI-Host': 'hotels-com-provider.p.rapidapi.com'
 	}
 };
